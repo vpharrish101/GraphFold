@@ -5,9 +5,9 @@ Graph-based trimodal architecture for protein structure embeddings with contrast
 GraphFold is a trimodal learning framework for protein structure modeling that combines graph, image, and sequence representations into a shared embedding space.
 
 The system integrates:
-  Graph-based structural encoding derived from contact maps
-  Pretrained sequence embeddings used as node features
-  Vision-based structural features from contact map images
+  1. Graph-based structural encoding derived from contact maps
+  2. Pretrained sequence embeddings used as node features
+  3. Vision-based structural features from contact map images
 
 Transformer-based components are used for representation learning, and a contrastive (CLIP-style) objective is designed to align modalities into a unified embedding space. The framework also supports supervised classification for structural categories.
 
