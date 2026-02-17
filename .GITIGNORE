@@ -1,0 +1,9 @@
+/data
+*train/
+*test/
+*val/
+
+*.ipynb
+
+/models
+
